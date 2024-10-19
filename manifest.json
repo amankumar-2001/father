@@ -13,7 +13,12 @@
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["runFastScript.js", "walkScript.js", "skipScript.js"],
+      "js": [
+        "runFastScript.js",
+        "walkScript.js",
+        "skipScript.js",
+        "autoAdRun.js"
+      ],
       "run_at": "document_idle"
     }
   ]
